@@ -9,7 +9,10 @@ import { FaPython } from "react-icons/fa";
 const SkillsHome = () => {
     return (
         <div className="roboto max-w-[1270px] mx-auto pt-10 my-20">
-            <h1 className="text-6xl font-bold text-center mb-5">Areas of Expertise</h1>
+            <h2 className="text-4xl font-bold mb-6 text-center">
+                Areas of Expertise
+                <span className="block w-80 h-1 bg-black mt-2 mx-auto"></span>
+            </h2>
             <p className="text-center mb-10">I specialize in creating responsive and visually appealing web applications using modern frontend technologies like HTML, CSS, JavaScript, and React. Additionally, I have a solid foundation in programming with C, C++, and Python Basics, enabling me to develop efficient and robust solutions.</p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 text-9xl gap-8 justify-between">

@@ -1,10 +1,8 @@
-import Navbar from "./Navbar";
-
 
 const Home = () => {
     return (
         <div className="bg-[#052949]">
-            <Navbar></Navbar>
+            <p className="text-white text-4xl">Home</p>
         </div>
     );
 };

@@ -14,6 +14,8 @@ function App() {
 
       <Outlet></Outlet>
 
+      
+
       <div className='bg-[#052949]'>
         <Footer></Footer>
       </div>

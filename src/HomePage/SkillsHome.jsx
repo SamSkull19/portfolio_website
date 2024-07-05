@@ -4,6 +4,8 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { FaCopyright } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
+
 
 
 const SkillsHome = () => {
@@ -42,7 +44,7 @@ const SkillsHome = () => {
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div className="flex items-center"><FaCopyright /><span className="text-5xl font-extrabold">++</span></div>
+                    <div className="flex items-center bg-slate-800 w-32 h-32 rounded-full text-white p-5"><FaRegCopyright className="text-6xl" /><span className="text-xl font-extrabold">++</span></div>
                     <p className="text-2xl mt-2 font-semibold">C++</p>
                 </div>
 

@@ -2,7 +2,7 @@ import { MdOutlineDeveloperMode } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
 import { SiAffinitydesigner } from "react-icons/si";
-import { FaCopyright } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 
 
@@ -40,7 +40,7 @@ const Services = () => {
                     </div>
 
                     <div className="max-w-xs m-4 text-center">
-                        <div className="text-4xl flex justify-center mb-5"><FaCopyright /></div>
+                        <div className="flex items-center justify-center mb-5"><FaRegCopyright className="text-4xl" /><span className="text-lg font-extrabold">++</span></div>
                         <h3 className="text-xl font-semibold mb-2">C++ Programming</h3>
                         <p className="text-gray-700">Creating robust and scalable applications with modern C++ practices.</p>
                     </div>

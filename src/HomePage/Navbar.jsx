@@ -14,8 +14,8 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal px-1 text-teal-100 text-lg font-normal">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/aboutMe'>About Me</Link></li>
+                        <li><Link to='/resume'>Resume</Link></li>
                         <li><Link to='/projects'>Projects</Link></li>
-                        <li><Link to='/skills'>Skills</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
@@ -27,8 +27,8 @@ const Navbar = () => {
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-7 z-20 p-2 shadow rounded-box w-52 bg-[#052949] bg-opacity-80 text-teal-200 -translate-x-40">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/aboutMe'>About Me</Link></li>
+                        <li><Link to='/resume'>Resume</Link></li>
                         <li><Link to='/projects'>Projects</Link></li>
-                        <li><Link to='/skills'>Skills</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
